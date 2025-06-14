@@ -27,7 +27,8 @@ This project analyzes a sample e-commerce dataset to extract meaningful business
 
  📷 Dashboard Preview
 
-![Dashboard Screenshot](ecommerce_preview.png)
+![Dashboard Preview](ecommerce_preview.png)
+
 
 ---
 
