@@ -1,33 +1,88 @@
-# 🛒 E-Commerce Sales Dashboard (Power BI)
 
-This project is a professional E-Commerce Sales Dashboard built using Power BI, SQL, and Python. It offers insights into sales performance, customer trends, product-level revenue, and geographic data.
+# 🛒 E-Commerce Sales Dashboard
 
-## 🔧 Tools Used
-- Power BI
-- Python (Pandas)
-- SQL (MySQL)
-  
-## 📊 Key Features
-- KPIs: Total Revenue, Total Orders, Avg Order Value
-- Monthly Revenue Trend
-- Top Products by Revenue
-- Revenue by Country (Treemap)
-- Top Customers
-- Interactive Filters (Month, Country, Product)
-- Drillthrough & Dynamic Slicers
+An interactive dashboard project analyzing e-commerce sales performance using **SQL**, **Python (Pandas)**, and **Power BI**.
 
-## 📷 Dashboard Preview
-![Dashboard Screenshot](dashboard_preview.png)
+---
 
-## 📁 Files
-- `ecommerce_dashboard.pbix` - Power BI dashboard file
-- `ecommerce_data.csv` - Sample dataset used
-- `dashboard_preview.png` - Dashboard screenshot
+## 📊 Project Overview
 
-## 🚀 How to Run
-1. Open `ecommerce_dashboard.pbix` in Power BI Desktop.
-2. Ensure you load the `ecommerce_data.csv` if prompted.
-3. Explore the interactive visuals.
+This project analyzes a sample e-commerce dataset to extract meaningful business insights such as:
 
-## 📄 License
-MIT License
+- Total Revenue & Orders
+- Average Order Value
+- Sales Trend over Time
+- Top Products, Customers & Countries
+- Interactive Filters and Drill-through capabilities
+
+---
+
+## 🧰 Tools & Technologies Used
+
+- **SQL** – Data cleaning and transformation
+- **Python (Pandas)** – Exploratory data analysis (EDA)
+- **Power BI** – Data visualization and dashboard creation
+
+---
+
+## 📁 Project Structure
+
+```
+ecommerce_dashboard/
+├── README.md
+├── data/
+│   └── ecommerce_data.csv
+├── sql/
+│   └── data_cleaning_queries.sql
+├── python/
+│   └── exploratory_analysis.ipynb
+├── powerbi/
+│   └── ecommerce_dashboard.pbix
+└── images/
+    └── dashboard_preview.png
+```
+
+---
+
+## 📸 Dashboard Preview
+
+![Dashboard Preview](images/dashboard_preview.png)
+
+---
+
+## 📈 Key Insights
+
+- 📅 Monthly revenue trends clearly identify peak seasons.
+- 🌍 Highest revenue-generating countries highlighted via map visuals.
+- 🛍 Top-selling products and high-value customers identified.
+
+---
+
+## ▶️ How to Use
+
+1. **Clone the Repo**  
+   ```bash
+   git clone https://github.com/aaditi43/ecommerce_dashboard.git
+   cd ecommerce_dashboard
+   ```
+
+2. **SQL**  
+   Run `data_cleaning_queries.sql` in MySQL Workbench to transform the raw data.
+
+3. **Python (Jupyter Notebook)**  
+   Use `exploratory_analysis.ipynb` to explore the data using Pandas.
+
+4. **Power BI**  
+   Open `ecommerce_dashboard.pbix` in Power BI Desktop to explore the visuals.
+
+---
+
+## 📌 Credits
+
+Created by Aditi | Inspired by common e-commerce analytics use cases.
+
+---
+
+## 📜 License
+
+This project is for educational purposes.
