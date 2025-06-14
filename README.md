@@ -45,15 +45,6 @@ ecommerce_dashboard/
 │   └── exploratory_analysis.ipynb
 ├── powerbi/
 │   └── ecommerce_dashboard.pbix
-└── images/
-    └── dashboard_preview.png
-```
-
----
-
-## 📸 Dashboard Preview
-
-![Dashboard Preview](images/dashboard_preview.png)
 
 ---
 
